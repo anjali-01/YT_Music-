@@ -24,13 +24,11 @@ header{
     cursor: pointer;
     float: left;
     background-color: black;
-    padding: 0px;
-   
 }
  
 .logo h2{
     float: left;
-    margin-top: 3px;
+    margin-top: 5px;
     font-size: 35px;
    background-color: black;
   
@@ -38,8 +36,6 @@ header{
 
 .nav_links{
     list-style: none;
-    background-color: none;
-    
 }
 
 .nav_links li{
@@ -55,6 +51,7 @@ header{
     font-size: 25px;
     background-color: black;  
     padding : 30px;  
+    opacity: 0.9;
 }
 .row{
     display:flex;
@@ -62,8 +59,10 @@ header{
 }
 
 .row > img {
-    margin: 8px;
+    margin: 10px;
     transition: transform 0.4s;
+    border-radius: 7px;
+    box-shadow: 3px 3px 15px 2px rgb(5, 5, 5);
   }
 
   .row > img:hover {
@@ -72,12 +71,25 @@ header{
 ::-webkit-scrollbar {
     display: none;
   }
+  .row2{
+    display:flex;
+    overflow-y: hidden;
+  }
+  .row2 > img {
+    margin: 10px;
+    transition: transform 0.4s;
+    border-radius: 100px;
+    opacity: 0.9;
+    box-shadow: 3px 3px 15px 2px rgb(5, 5, 5);
+  }
+  .row2 > img:hover {
+    transform: scale(1.1);
+  }
+::-webkit-scrollbar {
+    display: none;
+  }
 
   
-
-
-
-
 
 
 
